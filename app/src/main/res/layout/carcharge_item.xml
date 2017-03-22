@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/column1"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_carNo"
+        />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column2"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_carType"
+        />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column3"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_enterTime"
+        />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column4"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_exitTime"
+        />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column5"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_chargeAmount"
+        />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column6"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_enterName"
+        />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column7"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_exitName"
+        />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column8"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_personnelNo"
+        />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column9"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_personnelName"
+        />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column10"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_carId"
+        />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column11"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_remainderMoney"
+        />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column12"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_recvMoney"
+        />
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column13"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_chargeTime"
+        />
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column14"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_chargeOperator"
+        />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column15"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_chargeOperatorId"
+        />
+
+    <View
+        android:id="@+id/divider15"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column16"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_chargeExitName"
+        />
+
+    <View
+        android:id="@+id/divider16"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column17"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_timeoutFlag"
+        />
+
+    <View
+        android:id="@+id/divider17"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column18"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_OvertimeSFTime"
+        />
+
+    <View
+        android:id="@+id/divider18"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+
+    <TextView
+        android:id="@+id/column19"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_timeoutChageMoney"
+        />
+
+    <View
+        android:id="@+id/divider19"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column20"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_parkingId"
+        />
+
+    <View
+        android:id="@+id/divider20"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column21"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_sizeIdentify"
+        />
+
+    <View
+        android:id="@+id/divider21"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column22"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_freeReson"
+        />
+
+    <View
+        android:id="@+id/divider22"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column23"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_enterPerson"
+        />
+
+    <View
+        android:id="@+id/divider23"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column24"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_exitPerson"
+        />
+
+    <View
+        android:id="@+id/divider24"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column25"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_enterPicture"
+        />
+
+    <View
+        android:id="@+id/divider25"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column26"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_exitPicture"
+        />
+
+    <View
+        android:id="@+id/divider26"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column27"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_deptName"
+        />
+
+    <View
+        android:id="@+id/divider27"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column28"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_CertificatePicture"
+        />
+
+    <View
+        android:id="@+id/divider28"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column29"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_enterOperationId"
+        />
+
+    <View
+        android:id="@+id/divider29"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column30"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_exitOperatorId"
+        />
+
+    <View
+        android:id="@+id/divider30"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column31"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_enterOperator"
+        />
+
+    <View
+        android:id="@+id/divider31"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column32"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_exitOperator"
+        />
+    <!--有32个子标签-->
+</LinearLayout>
+

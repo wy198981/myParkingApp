@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">MyDistributedParkingOS</string>
+    <string name="home_name">登录</string>
+
+    <!--在线监控页面-->
+    <string name="parkMontior_vehicleAdmission">车辆入场</string>
+    <string name="parkMontior_vehicleAppearance">车辆出场</string>
+    <string name="parkMontior_unlicensedVehicleAdmission">无牌车入场</string>
+    <string name="parkMontior_unlicensedVehicleAppearance">无牌车出场</string>
+
+    <string name="parkMontior_licenseVehicleRegister">车牌登记</string>
+    <string name="parkMontior_blackListVehicle">黑名单车辆</string>
+    <string name="parkMontior_deadlineQuery">期限查询</string>
+    <string name="parkMontior_groundVehicle">场内车辆</string>
+    <string name="parkMontior_chargeRecord">收费记录</string>
+    <string name="parkMontior_shiftLog">换班登录</string>
+
+    <string name="parkMontior_drivewayType_out">出口车道</string>
+    <string name="parkMontior_drivewayType_in">入口车道</string>
+    <string name="parkMontior_switchOff"> 关闸 </string>
+    <string name="parkMontior_switchOn"> 开闸 </string>
+    <string name="parkMontior_manual">手动触发</string>
+
+    <string name="parkMontior_chargeInfo">收费信息</string>
+    <string name="parkMontior_personnelNo">人员编号</string>
+    <string name="parkMontior_personnelName">人员姓名</string>
+    <string name="parkMontior_cvehicleNo">车辆编号</string>
+    <string name="parkMontior_deptName">部门名称</string>
+    <string name="parkMontior_carClass">车辆类别</string>
+    <string name="parkMontior_freeAmount">免费金额</string>
+    <string name="parkMontior_enterTime">入场时间</string>
+    <string name="parkMontior_exitTime">出场时间</string>
+    <string name="parkMontior_chargeAmount">收费金额</string>
+    <string name="parkMontior_totalAmount">累计金额：</string>
+    <string name="parkMontior_remainderAmount">剩余金额</string>
+
+    <string name="parkMontior_parkingSpace">车位信息</string>
+    <string name="parkMontior_monRentalCarNum">月租车数：</string>
+    <string name="parkMontior_freeCarNum">免费车数：</string>
+    <string name="parkMontior_tempCarNum">临时车数：</string>
+    <string name="parkMontior_storeCarNum">储值车数：</string>
+    <string name="parkMontior_manualOpenNum">人工开闸数：</string>
+
+    <string name="parkMontior_chargeSum">收费金额（元）</string>
+    <string name="parkMontior_remanderDriveWay">剩余车位</string>
+
+    <string name="parkMontior_vehicleInParkDetails">场内车辆明细</string>
+
+
+    <string name="parkMontior_carNo">车辆号码</string>
+    <string name="parkMontior_carType">车辆类型</string>
+    <!--<string name="parkMontior_operateHint">入场时间</string>-->
+    <string name="parkMontior_enterName">入场名称</string>
+    <!-- <string name="parkMontior_operateHint">人员编号</string>-->
+    <!-- <string name="parkMontior_operateHint">人员姓名</string>-->
+    <string name="parkMontior_remainderMoney">余额</string>
+    <string name="parkMontior_carId">车辆编号</string>
+    <string name="parkMontior_parkingId">车场编号</string>
+    <string name="parkMontior_sizeIdentify">大小标识</string>
+    <string name="parkMontior_freeReson">免费原因</string>
+    <string name="parkMontior_enterPicture">入场图片</string>
+    <!--<string name="parkMontior_deptName">部门名称</string>-->
+    <string name="parkMontior_CertificatePicture">证件图片</string>
+    <string name="parkMontior_enterOperationId">入场操作编号</string>
+    <string name="parkMontior_enterOperator">入场操作员</string>
+
+    <!--状态栏提示-->
+    <string name="parkMontior_loginName">登录姓名：</string>
+    <string name="parkMontior_loginId">登录编号：</string>
+    <string name="parkMontior_workTime">上班时间：</string>
+    <string name="parkMontior_sysTime">系统时间：</string>
+    <string name="parkMontior_operateHintInfo">操作提示：</string>
+
+    <string name="parkMontior_vehicleChargeDetails">车辆收费明细</string>
+    <!--<string name="parkMontior_carNo">车辆号码</string>-->
+    <!--<string name="parkMontior_carType">车辆类型</string>-->
+    <!--<string name="parkMontior_enterTime">入场时间</string>-->
+    <!--<string name="parkMontior_exitTime">出场时间</string>-->
+    <!--<string name="parkMontior_chargeAmount">收费金额</string>-->
+    <!--<string name="parkMontior_enterName">入场名称</string>-->
+    <string name="parkMontior_exitName">出场名称</string>
+    <!--<string name="parkMontior_personnelNo">人员编号</string>-->
+    <!-- <string name="parkMontior_personnelName">人员姓名</string>
+     <string name="parkMontior_carlNo">车辆编号</string>
+     <string name="parkMontior_remainderMoney">余额</string>-->
+    <string name="parkMontior_recvMoney">应收金额</string>
+    <string name="parkMontior_chargeTime">收费时间</string>
+    <string name="parkMontior_chargeOperator">收费人员</string>
+    <string name="parkMontior_chargeOperatorId">收费人员编号</string>
+    <string name="parkMontior_chargeExitName">收费口名</string>
+    <string name="parkMontior_timeoutFlag">超时标志</string>
+    <string name="parkMontior_OvertimeSFTime">超时收费时间</string>
+    <string name="parkMontior_timeoutChargeReson">超时收费原因</string>
+    <string name="parkMontior_timeoutChageMoney">超时收费金额</string>
+    <!--  <string name="parkMontior_parkingId">车场编号</string>-->
+    <!--<string name="parkMontior_sizeIdentify">大小标识</string>-->
+    <!--<string name="parkMontior_freeReson">免费原因</string>-->
+    <string name="parkMontior_enterPerson">入场人员</string>
+    <string name="parkMontior_exitPerson">出场人员</string>
+    <!--<string name="parkMontior_enterOperator">入场操作员</string>-->
+    <!-- <string name="parkMontior_enterPicture">入场图片</string>-->
+    <string name="parkMontior_exitPicture">出场图片</string>
+    <!-- <string name="parkMontior_deptName">部门名称</string>-->
+    <!-- <string name="parkMontior_CertificatePicture">证件图片</string>-->
+    <!-- <string name="parkMontior_enterOperationId">入场操作编号</string>-->
+    <string name="parkMontior_exitOperatorId">出场操作编号</string>
+    <!--<string name="parkMontior_enterOperator">入场操作员</string>-->
+    <string name="parkMontior_exitOperator">出场操作员</string>
+
+    <string name="parkMontior_carNum">车牌号</string>
+    <!-- <string name="parkMontior_enterName">入场名称</string>-->
+    <!--<string name="parkMontior_enterOperator">入场操作员</string>-->
+    <string name="parkMontior_refresh">刷新</string>
+
+
+    <string name="parkMontior_carInTitle">请输入车牌</string>
+    <string name="parkMontior_carCategory">车牌类别</string>
+    <string name="parkMontior_commonCar">普通</string>
+    <string name="parkMontior_policeCar">警车</string>
+    <string name="parkMontior_MiliVehicles">军车</string>
+    <string name="parkMontior_armedPolice">武警</string>
+    <string name="parkMontior_carInText">输入车牌</string>
+    <string name="parkMontior_ok">确认</string>
+    <string name="parkMontior_cancel">取消</string>
+
+    <string name="parkMontior_jing">京</string>
+    <string name="parkMontior_yue">粤</string>
+    <string name="parkMontior_xiang">湘</string>
+    <string name="parkMontior_jin">晋</string>
+    <string name="parkMontior_ji">冀</string>
+    <string name="parkMontior_liao">辽</string>
+    <string name="parkMontior_ji1">吉</string>
+    <string name="parkMontior_hei">黑</string>
+    <string name="parkMontior_hu">沪</string>
+    <string name="parkMontior_sun">苏</string>
+    <string name="parkMontior_zhe">浙</string>
+    <string name="parkMontior_wan">皖</string>
+    <string name="parkMontior_min">闽</string>
+    <string name="parkMontior_gan">赣</string>
+    <string name="parkMontior_lu">鲁</string>
+    <string name="parkMontior_yu">豫</string>
+    <string name="parkMontior_e">鄂</string>
+    <string name="parkMontior_meng">蒙</string>
+    <string name="parkMontior_jin1">津</string>
+    <string name="parkMontior_gui">桂</string>
+    <string name="parkMontior_qiong">琼</string>
+    <string name="parkMontior_yu1">渝</string>
+    <string name="parkMontior_chuan">川</string>
+    <string name="parkMontior_gui1">贵</string>
+    <string name="parkMontior_yun">云</string>
+    <string name="parkMontior_zang">藏</string>
+    <string name="parkMontior_xie">陕</string>
+    <string name="parkMontior_gan1">甘</string>
+    <string name="parkMontior_qing">青</string>
+    <string name="parkMontior_ning">宁</string>
+    <string name="parkMontior_xin">新</string>
+
+    <string name="parkMontior_noPlateInColor">车辆颜色</string>
+    <string name="parkMontior_noPlateCarBrand">车辆品牌</string>
+    <string name="parkMontior_noPlateInAdd">添 加</string>
+    <string name="parkMontior_noPlateInTempCar">临时车辆</string>
+    <string name="parkMontior_noPlateInCarName">车辆名称</string>
+    <string name="parkMontior_noPlateInCancel">取 消</string>
+
+    <string name="parkMontior_noPlateOutTimeRange">时间范围</string>
+    <string name="parkMontior_noPlateOutTo">到</string>
+    <!--<string name="parkMontior_noPlateInAdd">车辆颜色</string>-->
+    <!--<string name="parkMontior_noPlateInTempCar">车辆类型</string>-->
+    <string name="parkMontior_noPlateOutTempCar">临时车牌</string>
+    <!--<string name="parkMontior_noPlateInCancel">车辆品牌</string>-->
+    <string name="parkMontior_noPlateOutDiscountAddress">打折地点</string>
+    <string name="parkMontior_noPlateOutRailwayName">车道名称</string>
+    <!--<string name="parkMontior_noPlateInAdd">免费原因</string>-->
+    <!--<string name="parkMontior_noPlateInCarName">应收金额</string>-->
+    <string name="parkMontior_noPlateOutScanPayWay">扫描支付方式</string>
+    <string name="parkMontior_noPlateOutPay">收费</string>
+    <string name="parkMontior_noPlateOutInPic">入口图片</string>
+    <string name="parkMontior_noPlateOutPic">出口图片</string>
+
+    <string name="parkMontior_noPlateOutWeixin">微信</string>
+    <string name="parkMontior_noPlateOutZhifubao">支付宝</string>
+
+    <string name="parkMontior_noPlateOutQuery">查询</string>
+    <string name="parkMontior_noPlateOutCalcCharge">计算收费</string>
+    <string name="parkMontior_noPlateOutGateRelease">开闸放行</string>
+    <string name="parkMontior_noPlateOutFreeRelease">免费放行</string>
+    <string name="parkMontior_noPlateOutPrintBill">打印小票</string>
+
+    <string name="parkMontior_validStartDay">有效起日</string>
+    <string name="parkMontior_validEndDay">有效止日</string>
+    <string name="parkMontior_parkingCarSpace">车场车位</string>
+    <string name="parkMontior_carRemarks">车辆备注</string>
+
+    <string name="parkMontior_carDeposit">车辆押金</string>
+    <string name="parkMontior_renderMoney">交纳金额</string>
+
+    <string name="parkMontior_telephone">手机号码</string>
+    <string name="parkMontior_numOfCarSpace">车位个数</string>
+    <string name="parkMontior_familyAddress">家庭住址</string>
+    <string name="parkMontior_payMoney">缴纳金额</string>
+    <string name="parkMontior_newAdd">新增</string>
+    <string name="parkMontior_save">保存</string>
+    <string name="parkMontior_logout">注销</string>
+    <string name="parkMontior_exit">退出</string>
+    <string name="parkMontior_addPersonInfo">添加人事信息</string>
+    <string name="parkMontior_parkingOpenId">车场开通机号</string>
+    <string name="parkMontior_parkingValidStartDay">车场有效起日</string>
+    <string name="parkMontior_parkingValidEndDay">车场有效止日</string>
+    <string name="parkMontior_carStatus">车辆状态</string>
+    <string name="parkMontior_rechargeMoney">充值金额</string>
+    <string name="parkMontior_issueDate">发行日期</string>
+    <string name="parkMontior_issuePerson">发行人员</string>
+    <string name="parkMontior_parkingRemarks">车场备注</string>
+
+    <string name="parkMontior_carModel">车辆型号</string>
+    <string name="parkMontior_operatorNoAuto">人员编号自动</string>
+    <string name="parkMontior_carNoAuto">车辆标号自动</string>
+    <string name="parkMontior_multiCarSpaceMultiCar">对车位多车</string>
+    <string name="parkMontior_allSelect">全选</string>
+
+
+    <string name="blackList_carNo">车辆号码</string>
+    <string name="blackList_limitTime">限制时段</string>
+    <string name="blackList_to">至</string>
+    <string name="blackList_reason">原因</string>
+    <string name="blackList_add">添 加</string>
+    <string name="blackList_query">查 询</string>
+    <string name="blackList_delete">删 除</string>
+    <string name="blackList_deleteAll">全部删除</string>
+    <string name="blackList_cancel">取 消</string>
+    <string name="blackList_carId">车牌号</string>
+    <string name="blackList_startTime">开始时间</string>
+    <string name="blackList_endTime">结束时间</string>
+    <string name="blackList_status">状态</string>
+
+
+    <string name="dealLineQuery_plateNo">车牌号码</string>
+    <string name="dealLineQuery_carNO">车辆编号</string>
+    <string name="dealLineQuery_carType">车辆类型</string>
+    <string name="dealLineQuery_parkingValidStartTime">车场有效起日</string>
+    <string name="dealLineQuery_parkingValidEndTime">车场有效止日</string>
+    <string name="dealLineQuery_reminderDays">剩余天数</string>
+    <string name="dealLineQuery_personName">人员姓名</string>
+    <string name="dealLineQuery_deptName">部门名称</string>
+    <string name="dealLineQuery_telephone">手机号码</string>
+    <string name="dealLineQuery_FixedReminderDays">固定剩余天数</string>
+    <string name="dealLineQuery_days">天内</string>
+    <string name="dealLineQuery_dueDay">到期时间段</string>
+    <string name="dealLineQuery_to">到</string>
+    <string name="dealLineQuery_personNo">人员编号</string>
+    <string name="dealLineQuery_query">查询</string>
+    <string name="dealLineQuery_export">导出</string>
+    <string name="dealLineQuery_exit">退出</string>
+    <string name="dealLineQuery_queryNum">查询数量</string>
+
+    <string name="parkingChange_operateName">操作姓名:</string>
+    <string name="parkingChange_login">登  录</string>
+    <string name="parkingChange_operatePwd">操作密码:</string>
+    <string name="parkingChange_Quit">放  弃</string>
+    <string name="parkingChange_operateNo">操作编号:</string>
+    <string name="parkingChange_printShiftReport">打印换班报表</string>
+
+
+    <string name="plate_register_carStatus">车辆状态</string>
+    <string name="plate_register_personName">人员姓名</string>
+    <string name="plate_register_Balance">充值余额</string>
+    <string name="plate_register_loadFlag">下载标识</string>
+
+    车牌号码
+    车辆编号
+    车辆类型
+    车辆状态
+    人员编号
+    人员姓名
+    车场有效起日
+    车场有效止日
+    手机号码
+    家庭地址
+    充值余额
+    车辆押金
+    车辆型号
+    车场车位
+    发行日期
+    发行人员
+    下载标识
+    车场备注
+    车位个数
+
+    <string name="plate_register_add">添加</string>
+</resources>

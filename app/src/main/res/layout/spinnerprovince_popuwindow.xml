@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/singleline_item_bg"
+        android:minHeight="30dp">
+
+
+        <TextView
+            android:id="@+id/tv_Stationvalue"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/edittext1"
+            android:gravity="left|center"
+            android:minHeight="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="#ff000000"
+            >
+        </TextView>
+
+
+        <ImageButton
+            android:id="@+id/bt_Stationdropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/tv_Stationvalue"
+            android:background="@drawable/down_arrow"/>
+    </RelativeLayout>
+
+</FrameLayout>

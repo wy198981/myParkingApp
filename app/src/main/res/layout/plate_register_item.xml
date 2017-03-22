@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/column1"
+        style="@style/styleCarDetail"
+        android:text="@string/dealLineQuery_plateNo"
+        />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column2"
+        style="@style/styleCarDetail"
+        android:text="@string/dealLineQuery_carNO"
+        />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column3"
+        style="@style/styleCarDetail"
+        android:text="@string/dealLineQuery_carType"
+        />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column4"
+        style="@style/styleCarDetail"
+        android:text="@string/plate_register_carStatus"
+        />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column5"
+        style="@style/styleCarDetail"
+        android:text="@string/dealLineQuery_personNo"
+        />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column6"
+        style="@style/styleCarDetail"
+        android:text="@string/plate_register_personName"
+        />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column7"
+        style="@style/styleCarDetail"
+        android:text="@string/dealLineQuery_parkingValidStartTime"
+        />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column8"
+        style="@style/styleCarDetail"
+        android:text="@string/dealLineQuery_parkingValidEndTime"
+        />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column9"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_telephone"
+        />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column10"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_familyAddress"
+        />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column11"
+        style="@style/styleCarDetail"
+        android:text="@string/plate_register_Balance"
+        />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column12"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_carDeposit"
+        />
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column13"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_carModel"
+        />
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column14"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_parkingCarSpace"
+        />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column15"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_issueDate"
+        />
+
+    <View
+        android:id="@+id/divider15"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column16"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_issuePerson"
+        />
+
+    <View
+        android:id="@+id/divider16"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column17"
+        style="@style/styleCarDetail"
+        android:text="@string/plate_register_loadFlag"
+        />
+
+    <View
+        android:id="@+id/divider17"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column18"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_parkingRemarks"
+        />
+
+    <View
+        android:id="@+id/divider18"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lineColor"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/column19"
+        style="@style/styleCarDetail"
+        android:text="@string/parkMontior_numOfCarSpace"
+        />
+</LinearLayout>
+
